@@ -5720,7 +5720,6 @@ u {
 }
 
 /*  blockquotes */
-/*  blockquotes */
 
 blockquote {
   border-left: 0 none;
@@ -5744,13 +5743,15 @@ blockquote::before {
 }
 
 blockquote p {
-	background-color: rgba(168,166,164,0.08);
-	padding: 20px;
-font-family:"楷体";
-	font-size: 20px;
-	line-height: 28px;
-	margin-left: -20px;margin-right: -20px;
-	border-radius: 3%;
+  background-color: rgba(168,166,164,0.08);
+  padding: 20px;
+  font-family: "楷体";
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0; /* 移除段落之间的空格 */
+  margin-left: -20px;
+  margin-right: -20px;
+  border-radius: 3%;
 }
 
 blockquote cite {
@@ -5767,8 +5768,9 @@ blockquote cite:before {
 blockquote cite a,
 blockquote cite a:visited {
   color: #8B9798;
-  border: none
+  border: none;
 }
+
 
 /* abbreviations */
 
