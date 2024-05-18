@@ -5750,7 +5750,7 @@ blockquote::before {
 blockquote p {
   background-color: rgba(168,166,164,0.08);
   padding: 10px;
-  font-family: "楷体";
+  font-family: "等距更纱黑体 SC Semibold", "微软雅黑 Semibold", "苹方-繁";
   font-size: 20px;
   line-height: 24px; /* 减小行间距 */
   margin: 0; /* 移除段落之间的空格 */
