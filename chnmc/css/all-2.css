@@ -5753,21 +5753,15 @@ blockquote p {
   font-family: "楷体";
   font-size: 20px;
   line-height: 24px; /* 减小行间距 */
-  margin: 2; /* 移除段落之间的空格 */
+  margin: 0; /* 移除段落之间的空格 */
   margin-left: -20px;
   margin-right: -20px;
   border-radius: 3%;
 }
 blockquote li {
-  background-color: rgba(168,166,164,0.08);
-  padding: 10px;
-  font-family: "楷体";
-  font-size: 20px;
-  line-height: 24px; /* 减小行间距 */
-  margin: 2; /* 移除段落之间的空格 */
-  margin-left: -20px;
-  margin-right: -20px;
-  border-radius: 3%;
+
+  margin: 1; /* 移除段落之间的空格 */
+
 }
 blockquote cite {
   display: block;
