@@ -5777,8 +5777,6 @@ blockquote cite a:visited {
 }
 ```
 
-将 `line-height` 从 `28px` 改为 `24px` 后，段落之间的行间距离会变小。如果需要进一步调整，可以继续调整 `line-height` 的值，直到达到理想的行间距。
-
 
 /* abbreviations */
 
@@ -11359,7 +11357,7 @@ box-shadow: 0px 0px 5px #fff;
 	background: rgba(0,0,0,0.28) none repeat scroll 0 0;
 	border-left: 20px solid #F78731;
 	color: #333333;
-	font-family: "楷体";
+	font-family:  "微软雅黑", "苹方-简", "宋体";
 	font-size: 16px;
 	line-height: 28px;
 	padding: 20px 16px 20px 17px;
