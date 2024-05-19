@@ -5719,11 +5719,7 @@ u {
   letter-spacing: 0;
 }
 
-如果希望 `blockquote` 内的 `p` 元素之间的行距（行间距离）小一些，可以调整 `line-height` 属性。当前的 `line-height` 设置为 `28px`，可以将其减小一些，例如改为 `24px` 或其他合适的值。
 
-以下是调整后的代码：
-
-```css
 /*  blockquotes */
 
 blockquote {
